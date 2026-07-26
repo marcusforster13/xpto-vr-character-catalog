@@ -25,6 +25,7 @@ const animations=["IDLE","WALK","RUN","RÁDIO","ABORDAGEM","REVISTA","SINAL","SO
 const groups=["Todos","Segurança","Militar","Resgate","Especialista"] as const;
 const xptoModels:Record<string,{url:string;file:string;label:string}> = {
   "PM-01":{url:"/models/PM-01-policia-militar.glb",file:"PM-01_POLICIA_MILITAR.GLB",label:"PM-01"},
+  "PC-02":{url:"/models/PC-02-policia-civil.glb",file:"PC-02_POLICIA_CIVIL.GLB",label:"PC-02"},
   "PF-03":{url:"/models/PF-03-policia-federal.glb",file:"PF-03_POLICIA_FEDERAL.GLB",label:"PF-03"}
 };
 
@@ -44,6 +45,7 @@ export default function Home(){
   </section><footer><span>XPTO INC. // VR TRAINING SYSTEMS</span><span>COLLECTION BUILD 2026.07</span><span>RIO DE JANEIRO // BR</span></footer>
  </main>;
 }
+
 
 
 
